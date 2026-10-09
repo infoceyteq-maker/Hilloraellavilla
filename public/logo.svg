@@ -1,0 +1,339 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 700" width="100%" height="100%" fill="none">
+  <defs>
+    <!-- 3D Soft Embossed Shadows -->
+    <filter id="emboss3D" x="-10%" y="-10%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="4" stdDeviation="4" flood-color="#000000" flood-opacity="0.18"/>
+      <feDropShadow dx="0" dy="1" stdDeviation="1" flood-color="#000000" flood-opacity="0.12"/>
+    </filter>
+
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="3" stdDeviation="3" flood-color="#000000" flood-opacity="0.15"/>
+    </filter>
+
+    <!-- Metallic Gold Gradients -->
+    <linearGradient id="goldGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#D6B372"/>
+      <stop offset="35%" stop-color="#B68E49"/>
+      <stop offset="70%" stop-color="#E2C98D"/>
+      <stop offset="100%" stop-color="#9C7736"/>
+    </linearGradient>
+
+    <linearGradient id="goldLeaf" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#CBB078"/>
+      <stop offset="50%" stop-color="#E5D19E"/>
+      <stop offset="100%" stop-color="#A5803E"/>
+    </linearGradient>
+
+    <!-- Luminous Eco-Luxury Gold & Ivory Gradient -->
+    <linearGradient id="forestText" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFDF9"/>
+      <stop offset="35%" stop-color="#EED59B"/>
+      <stop offset="100%" stop-color="#C49B55"/>
+    </linearGradient>
+  </defs>
+
+  <g id="hillora-logo-transparent" filter="url(#emboss3D)">
+    <!-- 1. Circular Golden Frame Arc (Upper Enclosure) -->
+    <path
+      d="M 235 340 A 155 155 0 1 1 480 340"
+      stroke="url(#goldGradient)"
+      stroke-width="5"
+      stroke-linecap="round"
+      fill="none"
+      filter="url(#softShadow)"
+    />
+
+    <!-- Inner thin golden accent ring -->
+    <path
+      d="M 245 330 A 145 145 0 1 1 470 330"
+      stroke="url(#goldGradient)"
+      stroke-width="1.2"
+      stroke-dasharray="4 3"
+      opacity="0.8"
+      fill="none"
+    />
+
+    <!-- 2. Birds in Flight -->
+    <g stroke="url(#goldGradient)" stroke-width="2" stroke-linecap="round" fill="none">
+      <path d="M 295 190 Q 301 184 307 190 Q 313 184 319 190"/>
+      <path d="M 322 176 Q 327 171 332 176 Q 337 171 342 176"/>
+      <path d="M 348 194 Q 352 189 356 194 Q 360 189 364 194"/>
+    </g>
+
+    <!-- 3. Distant Mountain Ridges (Subtle Mist) -->
+    <path
+      d="M 235 320 C 265 295, 290 285, 320 270 C 340 280, 360 260, 385 240 C 420 270, 450 300, 480 335"
+      fill="none"
+      stroke="#D6C7A8"
+      stroke-width="1.8"
+      opacity="0.6"
+    />
+    <path
+      d="M 238 310 C 270 290, 300 275, 325 285 C 350 265, 375 250, 410 275"
+      fill="none"
+      stroke="#BDB293"
+      stroke-width="1.5"
+      opacity="0.5"
+    />
+
+    <!-- 4. Main Mountain Peak (Ella Rock / Central Peak) -->
+    <!-- Shaded Right Slope -->
+    <polygon
+      points="340,215 425,320 380,335 340,215"
+      fill="#C19A5B"
+      opacity="0.25"
+    />
+    <!-- Ridge Line & Outlines -->
+    <path
+      d="M 245 335 L 340 215 L 420 315"
+      stroke="url(#goldGradient)"
+      stroke-width="3"
+      stroke-linejoin="round"
+      fill="none"
+    />
+    <!-- Center Spine -->
+    <path
+      d="M 340 215 L 362 275 L 380 335"
+      stroke="url(#goldGradient)"
+      stroke-width="2.2"
+      fill="none"
+    />
+    <!-- Woodcut Etching Hatchings on Mountain Left Slope -->
+    <line x1="325" y1="238" x2="338" y2="236" stroke="#FAF5EA" stroke-width="1.3" opacity="0.85"/>
+    <line x1="312" y1="258" x2="343" y2="252" stroke="#FAF5EA" stroke-width="1.3" opacity="0.85"/>
+    <line x1="298" y1="278" x2="348" y2="270" stroke="#FAF5EA" stroke-width="1.3" opacity="0.85"/>
+    <line x1="280" y1="300" x2="355" y2="288" stroke="#FAF5EA" stroke-width="1.3" opacity="0.85"/>
+    <line x1="265" y1="318" x2="362" y2="305" stroke="#FAF5EA" stroke-width="1.3" opacity="0.85"/>
+    <!-- Shading Hatchings on Mountain Right Slope -->
+    <line x1="344" y1="228" x2="360" y2="238" stroke="#E5C788" stroke-width="1.2" opacity="0.75"/>
+    <line x1="348" y1="248" x2="375" y2="260" stroke="#E5C788" stroke-width="1.2" opacity="0.75"/>
+    <line x1="355" y1="268" x2="395" y2="285" stroke="#E5C788" stroke-width="1.2" opacity="0.75"/>
+
+    <!-- 5. Background Trees (Left and Mid) -->
+    <!-- Mid-ground trees behind house -->
+    <path
+      d="M 372 260 C 362 250, 360 238, 372 232 C 385 226, 396 235, 395 245 C 405 245, 410 255, 402 265 Z"
+      fill="#436248"
+    />
+    <path
+      d="M 382 265 L 382 285"
+      stroke="#C19A5B"
+      stroke-width="2"
+    />
+    <!-- Mid-right tree -->
+    <path
+      d="M 432 285 C 424 275, 425 260, 436 256 C 448 250, 458 258, 456 268 C 466 270, 468 282, 460 290 Z"
+      fill="#436248"
+    />
+    <path
+      d="M 444 288 L 444 315"
+      stroke="#C19A5B"
+      stroke-width="2"
+    />
+
+    <!-- 6. Hillora Ella Retreat Chalet / Two-Story Villa -->
+    <g id="retreat-villa">
+      <!-- Roof (Overhanging Gabled Roof) -->
+      <polygon
+        points="348,272 418,245 478,268 412,295"
+        fill="#263F2C"
+      />
+      <!-- Roof fascia edge -->
+      <line x1="345" y1="273" x2="415" y2="245" stroke="url(#goldGradient)" stroke-width="2.5"/>
+      <line x1="415" y1="245" x2="480" y2="269" stroke="url(#goldGradient)" stroke-width="2.5"/>
+
+      <!-- Second Floor Wall (Translucent eco-stucco, completely background-free) -->
+      <polygon
+        points="360,277 410,256 462,274 412,295"
+        fill="rgba(255, 253, 249, 0.18)"
+        stroke="url(#goldGradient)"
+        stroke-width="1.8"
+      />
+      <!-- Upper Window -->
+      <rect
+        x="425"
+        y="266"
+        width="14"
+        height="16"
+        fill="#1A2D1F"
+        rx="1"
+      />
+      <line x1="432" y1="266" x2="432" y2="282" stroke="#FAF5EA" stroke-width="1"/>
+      <line x1="425" y1="274" x2="439" y2="274" stroke="#FAF5EA" stroke-width="1"/>
+
+      <!-- Balcony Structure (Iconic X-Railings) -->
+      <rect
+        x="362"
+        y="288"
+        width="65"
+        height="18"
+        fill="rgba(255, 253, 249, 0.15)"
+        stroke="url(#goldGradient)"
+        stroke-width="2"
+      />
+      <!-- Cross Railings (X patterns) -->
+      <g stroke="#FAF5EA" stroke-width="1.6">
+        <line x1="362" y1="288" x2="378" y2="306"/>
+        <line x1="378" y1="288" x2="362" y2="306"/>
+        <line x1="378" y1="288" x2="394" y2="306"/>
+        <line x1="394" y1="288" x2="378" y2="306"/>
+        <line x1="394" y1="288" x2="410" y2="306"/>
+        <line x1="410" y1="288" x2="394" y2="306"/>
+        <line x1="410" y1="288" x2="426" y2="306"/>
+        <line x1="426" y1="288" x2="410" y2="306"/>
+      </g>
+
+      <!-- Ground Floor Structure & Veranda -->
+      <rect
+        x="368"
+        y="306"
+        width="56"
+        height="32"
+        fill="rgba(255, 253, 249, 0.15)"
+        stroke="url(#goldGradient)"
+        stroke-width="2.2"
+      />
+      <!-- Veranda Door / Entryway -->
+      <rect
+        x="392"
+        y="312"
+        width="16"
+        height="26"
+        fill="#1A2D1F"
+      />
+      <!-- Door glass divide -->
+      <line x1="400" y1="312" x2="400" y2="338" stroke="#FAF5EA" stroke-width="1.2"/>
+
+      <!-- Veranda Wooden Pillars -->
+      <line x1="365" y1="290" x2="365" y2="338" stroke="url(#goldGradient)" stroke-width="3"/>
+      <line x1="426" y1="290" x2="426" y2="338" stroke="url(#goldGradient)" stroke-width="3"/>
+
+      <!-- Foundation Stone Steps -->
+      <line x1="360" y1="338" x2="430" y2="338" stroke="url(#goldGradient)" stroke-width="2.5"/>
+      <line x1="356" y1="342" x2="434" y2="342" stroke="url(#goldGradient)" stroke-width="2.5"/>
+    </g>
+
+    <!-- 7. Foreground Shrubs & Garden at Villa Base -->
+    <path
+      d="M 330 350 C 340 338, 355 338, 362 344 C 370 335, 385 338, 390 348 C 400 340, 420 340, 428 350 C 440 340, 455 342, 460 352 Z"
+      fill="#38543E"
+    />
+
+    <!-- 8. Iconic Tall Eucalyptus Tree on Right (Breaking the Circle) -->
+    <g id="tall-eucalyptus">
+      <!-- Textured Tall Trunk -->
+      <path
+        d="M 458 348 C 456 280, 458 200, 460 160 C 462 135, 463 115, 465 105"
+        stroke="url(#goldGradient)"
+        stroke-width="5.5"
+        stroke-linecap="round"
+        fill="none"
+      />
+      <!-- Branch 1 -->
+      <path d="M 460 170 Q 450 150 435 152" stroke="url(#goldGradient)" stroke-width="3" fill="none"/>
+      <!-- Branch 2 -->
+      <path d="M 462 145 Q 475 125 490 128" stroke="url(#goldGradient)" stroke-width="3" fill="none"/>
+
+      <!-- Top Foliage Canopy (Overlapping the Golden Arc) -->
+      <path
+        d="M 445 125 C 425 110, 430 85, 455 80 C 475 75, 498 85, 495 105 C 510 110, 510 135, 488 140 C 475 145, 450 140, 445 125 Z"
+        fill="#26412D"
+        stroke="url(#goldGradient)"
+        stroke-width="1.5"
+        filter="url(#softShadow)"
+      />
+      <!-- Secondary Upper Clusters -->
+      <path
+        d="M 425 155 C 410 145, 415 130, 432 130 C 448 130, 452 145, 442 160 Z"
+        fill="#325039"
+      />
+      <path
+        d="M 470 140 C 460 128, 475 118, 492 120 C 505 122, 508 142, 492 148 Z"
+        fill="#325039"
+      />
+      <path
+        d="M 438 185 C 428 175, 430 162, 445 162 C 458 162, 460 178, 450 190 Z"
+        fill="#26412D"
+      />
+    </g>
+
+    <!-- 9. Base Swooping Wave Underline (Characteristic Brand Arc) -->
+    <path
+      d="M 215 385 C 295 348, 385 365, 480 348 C 500 344, 470 358, 430 368 C 350 388, 270 382, 215 385 Z"
+      fill="url(#goldGradient)"
+      filter="url(#softShadow)"
+    />
+
+    <!-- 10. TYPOGRAPHY: HILLORA -->
+    <!-- Text "HILLORA" with Elegant Serif and Botanical Flourish on 'A' -->
+    <g id="brand-hillora" fill="url(#forestText)" filter="url(#softShadow)">
+      <!-- Rendered as beautiful precision vector glyphs -->
+      <!-- H -->
+      <path d="M 185 410 L 195 410 L 195 435 L 222 435 L 222 410 L 232 410 L 232 468 L 222 468 L 222 443 L 195 443 L 195 468 L 185 468 Z"/>
+      <!-- I -->
+      <path d="M 248 410 L 266 410 L 266 416 L 260 416 L 260 462 L 266 462 L 266 468 L 248 468 L 248 462 L 254 462 L 254 416 L 248 416 Z"/>
+      <!-- L -->
+      <path d="M 282 410 L 298 410 L 298 416 L 292 416 L 292 462 L 320 462 L 320 452 L 326 452 L 326 468 L 282 468 Z"/>
+      <!-- L -->
+      <path d="M 338 410 L 354 410 L 354 416 L 348 416 L 348 462 L 376 462 L 376 452 L 382 452 L 382 468 L 338 468 Z"/>
+      <!-- O -->
+      <path d="M 412 410 C 428 410, 440 422, 440 439 C 440 456, 428 468, 412 468 C 396 468, 384 456, 384 439 C 384 422, 396 410, 412 410 Z M 412 416 C 401 416, 392 426, 392 439 C 392 452, 401 462, 412 462 C 423 462, 432 452, 432 439 C 432 426, 423 416, 412 416 Z"/>
+      <!-- R -->
+      <path d="M 454 410 L 480 410 C 492 410, 500 416, 500 426 C 500 434, 494 440, 484 442 L 502 468 L 491 468 L 474 443 L 464 443 L 464 468 L 454 468 Z M 464 416 L 464 437 L 478 437 C 486 437, 490 433, 490 426 C 490 420, 485 416, 478 416 Z"/>
+      <!-- A with extended flourish leg -->
+      <path d="M 522 410 L 532 410 L 558 468 L 548 468 L 542 454 L 518 454 L 512 468 L 502 468 Z M 521 447 L 539 447 L 530 424 Z"/>
+      <!-- Elegant Extended Swash on 'A' -->
+      <path d="M 548 468 Q 562 478 578 474 Q 588 470 594 458" stroke="url(#goldGradient)" stroke-width="2.6" fill="none"/>
+    </g>
+
+    <!-- 11. Golden Botanical Sprig Sprouting from the 'A' -->
+    <g id="botanical-flourish" fill="url(#goldLeaf)" stroke="url(#goldGradient)">
+      <!-- Leaf 1 (Top) -->
+      <path d="M 572 455 C 576 447, 586 446, 592 450 C 588 458, 578 460, 572 455 Z"/>
+      <!-- Leaf 2 (Right) -->
+      <path d="M 584 462 C 592 460, 600 466, 602 473 C 594 475, 586 470, 584 462 Z"/>
+      <!-- Leaf 3 (Small Lower) -->
+      <path d="M 574 468 C 578 474, 586 476, 590 474 C 586 480, 578 478, 574 468 Z"/>
+      <!-- Sprig center stem -->
+      <path d="M 566 468 Q 578 465 588 462" stroke-width="1.2" fill="none"/>
+    </g>
+
+    <!-- 12. DIVIDER LINE & "ELLA" -->
+    <!-- Left Golden Accent Line with Diamond -->
+    <path d="M 225 498 L 228 495 L 231 498 L 228 501 Z" fill="url(#goldGradient)"/>
+    <line x1="233" y1="498" x2="310" y2="498" stroke="url(#goldGradient)" stroke-width="1.8"/>
+
+    <!-- ELLA in Metallic 3D Gold -->
+    <g fill="url(#goldGradient)" font-family="'Cormorant Garamond', 'Georgia', serif" font-size="28" font-weight="600" letter-spacing="9">
+      <text x="325" y="506">ELLA</text>
+    </g>
+
+    <!-- Right Golden Accent Line with Diamond -->
+    <line x1="405" y1="498" x2="482" y2="498" stroke="url(#goldGradient)" stroke-width="1.8"/>
+    <path d="M 484 498 L 487 495 L 490 498 L 487 501 Z" fill="url(#goldGradient)"/>
+
+    <!-- 13. SUBTITLE: "A QUIET STAY IN THE HILLS" -->
+    <text
+      x="350"
+      y="535"
+      text-anchor="middle"
+      fill="#F2E3C4"
+      font-family="'Plus Jakarta Sans', system-ui, sans-serif"
+      font-size="11.5"
+      font-weight="600"
+      letter-spacing="5"
+    >
+      A QUIET STAY IN THE HILLS
+    </text>
+
+    <!-- 14. BOTTOM BOTANICAL ORNAMENT -->
+    <g id="bottom-ornament" fill="url(#goldLeaf)" stroke="url(#goldGradient)">
+      <line x1="315" y1="556" x2="335" y2="556" stroke-width="1.2"/>
+      <!-- Center Leaf Pair -->
+      <path d="M 346 556 C 342 550, 336 544, 344 540 C 352 546, 350 552, 346 556 Z"/>
+      <path d="M 354 556 C 358 550, 364 544, 356 540 C 348 546, 350 552, 354 556 Z"/>
+      <circle cx="350" cy="556" r="2" fill="url(#goldGradient)"/>
+      <line x1="365" y1="556" x2="385" y2="556" stroke-width="1.2"/>
+    </g>
+  </g>
+</svg>

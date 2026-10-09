@@ -1,0 +1,6 @@
+{
+  "name": "Hillora Ella - A Quiet Stay in the Hills",
+  "description": "Eco-friendly, vegan-friendly quiet luxury mountain retreat in Kithal Ella, Ella, Sri Lanka. Serene panoramic views, organic living, and conscious hospitality.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

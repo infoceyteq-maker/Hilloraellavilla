@@ -1,0 +1,70 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-serif: 'Cormorant Garamond', Georgia, serif;
+    --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  }
+}
+
+.font-serif-luxury {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+}
+
+.font-sans-clean {
+  font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+}
+
+/* 3D Organic Elevated Shadows & Neumorphic Nuances */
+.shadow-3d-card {
+  box-shadow: 
+    0 12px 28px -6px rgba(35, 54, 38, 0.09),
+    0 6px 12px -4px rgba(35, 54, 38, 0.05),
+    inset 0 1px 1px 0 rgba(255, 255, 255, 0.7);
+}
+
+.shadow-3d-card-hover {
+  box-shadow: 
+    0 22px 40px -10px rgba(35, 54, 38, 0.16),
+    0 10px 18px -4px rgba(35, 54, 38, 0.08),
+    inset 0 1px 2px 0 rgba(255, 255, 255, 0.9);
+}
+
+.shadow-3d-btn {
+  box-shadow: 
+    0 6px 16px 0 rgba(46, 80, 52, 0.28),
+    0 2px 6px 0 rgba(46, 80, 52, 0.16),
+    inset 0 1px 1px 0 rgba(255, 255, 255, 0.35);
+}
+
+.shadow-3d-btn:hover {
+  box-shadow: 
+    0 10px 22px 0 rgba(46, 80, 52, 0.36),
+    0 4px 8px 0 rgba(46, 80, 52, 0.22),
+    inset 0 1px 2px 0 rgba(255, 255, 255, 0.45);
+}
+
+.shadow-3d-btn:active {
+  box-shadow: 
+    0 2px 4px 0 rgba(46, 80, 52, 0.2),
+    inset 0 2px 4px 0 rgba(0, 0, 0, 0.18);
+}
+
+.shadow-3d-badge {
+  box-shadow: 
+    0 4px 10px rgba(44, 62, 45, 0.1),
+    inset 0 1px 1px rgba(255, 255, 255, 0.6);
+}
+
+.shadow-3d-inset {
+  box-shadow: 
+    inset 0 2px 5px 0 rgba(44, 62, 45, 0.07),
+    0 1px 1px 0 rgba(255, 255, 255, 0.8);
+}
+
+.shadow-3d-floating {
+  box-shadow: 
+    0 24px 54px -12px rgba(35, 54, 38, 0.2),
+    0 12px 24px -8px rgba(35, 54, 38, 0.1),
+    inset 0 1px 2px 0 rgba(255, 255, 255, 0.8);
+}
